@@ -1,1 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T19:15:58.900Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" version="13.7.5" etag="5ZgB8c5nwT869lcveCUf" type="github"><diagram id="_AS5JHE4I_o_HhQv781U">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-23T21:57:52.460Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="qcL_MHC8k6IEag0gBW3z" version="13.7.5" type="github">
+  <diagram id="_AS5JHE4I_o_HhQv781U" name="Page-1">
+    <mxGraphModel dx="868" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="91Wu8gecrPZZ7uKuCeFr-1" value="collector" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="160" height="116" as="geometry">
+            <mxRectangle x="340" y="180" width="80" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91Wu8gecrPZZ7uKuCeFr-2" value="login to Jira" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="91Wu8gecrPZZ7uKuCeFr-1">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="91Wu8gecrPZZ7uKuCeFr-3" value="collect all assigned tasks" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="91Wu8gecrPZZ7uKuCeFr-1">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="91Wu8gecrPZZ7uKuCeFr-4" value="create/update DB data" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="91Wu8gecrPZZ7uKuCeFr-1">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="91Wu8gecrPZZ7uKuCeFr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="91Wu8gecrPZZ7uKuCeFr-10" target="91Wu8gecrPZZ7uKuCeFr-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="39" />
+              <mxPoint x="290" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91Wu8gecrPZZ7uKuCeFr-10" value="" style="image;image=img/lib/atlassian/Jira_Service_Desk_Logo.svg;" vertex="1" parent="1">
+          <mxGeometry x="390.5" y="20" width="59" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="91Wu8gecrPZZ7uKuCeFr-15" value="Database" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="610" y="180" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="91Wu8gecrPZZ7uKuCeFr-16" value="SQLite" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="91Wu8gecrPZZ7uKuCeFr-15">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="91Wu8gecrPZZ7uKuCeFr-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="91Wu8gecrPZZ7uKuCeFr-2" target="91Wu8gecrPZZ7uKuCeFr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="91Wu8gecrPZZ7uKuCeFr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="91Wu8gecrPZZ7uKuCeFr-4" target="91Wu8gecrPZZ7uKuCeFr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
